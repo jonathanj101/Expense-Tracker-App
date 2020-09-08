@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <div class="form-main__container">
+        <span class="title">Your Budget Tracker</span>
+        <form class="form-container">
+            <input id="description" name="name" type="text"
+                placeholder="Restaurant, Groceries, etc..">
+            <input id="amount" name="amount" type="number" placeholder="Amount">
+            <select name="payment-type" id="payment-type">
+                <option value="">-- Select Payment Type --</option>
+                <option id="options" value="credit-card">Credit Card</option>
+                <option id="options" value="debit-card">Debit Card</option>
+                <option id="options" value="cash">Cash</option>
+            </select>
+            <input id="date" name="date" type="date">
+        </form>
+        <button class="submit" type="submit">Add Expense</button>
+    </div>
+
+    <table class="main-table">
+        <thead class="t-head">
+            <tr class="t-head__t-row">
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Type</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody class="t-body">
+            <tr class="t-body__t-row">
+                <!-- <td  class="t-body__t-data">wendy</td>
+                <td class="t-bdoy__t-data">food</td>
+                <td class="t-bdoy__t-data">$25</td>
+                <td class="t-bdoy__t-data">card</td>
+                <td class="t-bdoy__t-data">date</td> -->
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
