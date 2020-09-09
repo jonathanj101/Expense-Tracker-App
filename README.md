@@ -10,5 +10,5 @@ under construction!! :)
 
 **Jonathan Jimenez** - Aspiring Full Stack Developer
 
-- [LinkedIn](linkedin.com/in/jonathan-jimenez101)
+- [LinkedIn](https://www.linkedin.com/in/jonathan-jimenez101/)
 - [Codepen](https://codepen.io/jonathanj101/)
