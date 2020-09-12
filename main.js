@@ -1,12 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    getFromLocalStorage()
-})
+// document.addEventListener('DOMContentLoaded', function () {
+//     getFromLocalStorage()
+// })
 
 const tBody = document.querySelector(".t-body")
 const description = document.querySelector("#description")
 const amount = document.querySelector("#amount")
 const payment_type = document.querySelector("#payment-type")
 const purchaseDate = document.querySelector("#date")
+const input = document.querySelectorAll('input')
 
 const buttonSubmit = document.querySelector(".submit")
 const buttonRemove = document.querySelector('.remove')
@@ -48,12 +49,17 @@ function addExpense() {
     tr.appendChild(tdPurchaseDate)
     tr.appendChild(buttonRemove)
 
+    input.forEach(e => {
+        e.value = ''
+    })
+
     expense_detail.push({
         desc: tdDesc.textContent,
         amount: tdAmount.textContent,
         paymentType: tdPaymentType.textContent,
         dateOfPurchase: tdPurchaseDate.textContent
     })
+
 
     setLocalStorage(expense_detail)
 
