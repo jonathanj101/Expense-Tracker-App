@@ -87,3 +87,23 @@ th {
 td {
   font-size: 1.5rem;
 }
+
+tr {
+  border-left: 2px solid black;
+}
+
+.remove {
+  color: red;
+  border: 2px solid black;
+  font-size: 3rem;
+  transition: 1s;
+  transition: 1s ease-out;
+  width: 1%;
+}
+
+.remove:hover {
+  width: 10%;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
