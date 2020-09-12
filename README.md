@@ -1,10 +1,12 @@
 # Simplest Expense Track App
 
-Simple HTML/CSS/JavaScript Expense Tracker App
+Simple HTML(Table)/CSS/JavaScript Expense Tracker App
+
+![](/image/preview.png)
 
 # Summary
 
-under construction!! :)
+A simpple Expense Track using HTML Table, not a piece of art. However, challenging when i never deal will Table in the past. Learned new concepts throughout the prcess of making it's functionality to work properly!
 
 # Author
 
