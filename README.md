@@ -12,4 +12,4 @@ A simpple Expense Track using HTML Table, not a piece of art. However, challengi
 
 # Author
 
-**Jonathan Jimenez** - Full Stack Software Developer - [LinkedIn](https://www.linkedin.com/in/jonathan-jimenez101/) | [Codepen](https://codepen.io/jonathanj101/)
+**Jonathan Jimenez** - Full Stack Software Developer - [LinkedIn](https://www.linkedin.com/in/jonathan-jimenez101/) | [Website](https://jonathan-jimenez.herokuapp.com/)
